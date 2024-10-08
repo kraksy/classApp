@@ -1,0 +1,14 @@
+{
+  "name": "school-grade-system",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "backend": "cd back && npm start",
+    "frontend": "cd front && npm run dev",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0"
+  }
+}
+
